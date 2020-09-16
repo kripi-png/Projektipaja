@@ -30,8 +30,6 @@ class ContentBox extends React.Component {
     this.state = {}
   }
   render() {
-    console.log( this.props );
-    console.log( this.props.type );
     if ( this.props.type === 'text' ) {
       return(
         <div className={'contentBox'}>{this.props.content}</div>

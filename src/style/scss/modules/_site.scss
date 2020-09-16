@@ -4,6 +4,10 @@ html, body {
   margin: 0;
   padding: 0;
 }
+#root,
+.main {
+  height: 100%;
+}
 
 body {
   background-image: url('https://peda.net/sastamala/pl/yrittajyyskasvatus/maisema-jpg:file/download/b57ae19feb22b1bf7ac59124c06dcfc7789a172a/maisema.jpg');

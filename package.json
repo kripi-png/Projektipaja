@@ -3,8 +3,10 @@
   "description": "Projektipaja-projektin nettisivut",
   "version": "0.1.0",
   "private": true,
-  "author" : "Roope Sinisalo <roopesini@gmail.com>",
-  "contributors": ["Projektipaja-ryhmä S71"],
+  "author": "Roope Sinisalo <roopesini@gmail.com>",
+  "contributors": [
+    "Projektipaja-ryhmä S71"
+  ],
   "homepage": "https://kripi-png.github.io/Projektipaja/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

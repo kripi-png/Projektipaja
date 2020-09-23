@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ae8248775d9280806c6315a53339b7f",
+    "revision": "97a510d43cb00ee6da4be14ba8cc37d8",
     "url": "/Projektipaja/index.html"
   },
   {
-    "revision": "ab48fb63da1affc2f13d",
-    "url": "/Projektipaja/static/css/main.de6fe279.chunk.css"
+    "revision": "93c4c585555f7eb1c9f2",
+    "url": "/Projektipaja/static/css/main.0346c329.chunk.css"
   },
   {
     "revision": "ec228cef00376f8cfed9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Projektipaja/static/js/2.3586eef5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab48fb63da1affc2f13d",
-    "url": "/Projektipaja/static/js/main.7d930a50.chunk.js"
+    "revision": "93c4c585555f7eb1c9f2",
+    "url": "/Projektipaja/static/js/main.e3cb3f82.chunk.js"
   },
   {
     "revision": "dea6717a97a7cf0f7c66",

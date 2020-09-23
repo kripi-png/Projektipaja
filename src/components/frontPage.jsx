@@ -19,9 +19,17 @@ export default class FrontPage extends React.Component {
         />
         <Button
           img={'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/YouTube_social_white_circle_%282017%29.svg/1024px-YouTube_social_white_circle_%282017%29.svg.png'}
-          style={{left: "50%", top: "30%"}}
-          type={'video'}
+          style={{left: "50%", top: "30%" }}
+          contentStyle={{ margin: "0 0 0 -500px" }}
+          type={'iframe'}
           content={'https://www.youtube.com/embed/dQw4w9WgXcQ'}
+        />
+        <Button
+          img={'https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg'}
+          style={{left: "90%", top: "25%" }}
+          contentStyle={{ margin: "0 0 0 -500px" }}
+          type={'iframe'}
+          content={'https://en.wikipedia.org/wiki/Rickrolling'}
         />
       </div>
     );

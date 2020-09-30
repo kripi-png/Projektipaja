@@ -5,12 +5,13 @@ html, body {
   padding: 0;
 }
 #root,
-.main {
-  height: 100%;
-}
+
+.main { height: 100%; }
+
+.main { position: relative; }
 
 body {
-  background-image: url('https://peda.net/sastamala/pl/yrittajyyskasvatus/maisema-jpg:file/download/b57ae19feb22b1bf7ac59124c06dcfc7789a172a/maisema.jpg');
+  background-image: url('https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg');
   background-size: 100% auto;
 }
 
@@ -28,10 +29,6 @@ body {
 .Button img.contentBox {
   width: auto;
   height: auto;
-}
-
-.main {
-  position: relative;
 }
 
 .contentBox {

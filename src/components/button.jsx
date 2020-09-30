@@ -32,18 +32,17 @@ class ContentBox extends React.Component {
   render() {
     if ( this.props.type === 'text' ) {
       return(
-        <div className={'contentBox'} style={this.props.contentStyle}>{this.props.content}</div>
+        <div title={this.props.hoverInfo} className={'contentBox'} style={this.props.contentStyle}>{this.props.content}</div>
       );
     }
     else if ( this.props.type === 'iframe' ) {
       return(
-        // <a class="embedly-card" data-card-via="https://embed.ly/code?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRickrolling" href="https://en.wikipedia.org/wiki/Rickrolling">Rickrolling</a>
-        <iframe title="asd" className={'contentBox'} style={this.props.contentStyle} width={'420'} height={'315'} src={this.props.content} allowFullScreen></iframe>
+        <iframe title={this.props.hoverInfo} className={'contentBox'} style={this.props.contentStyle} width={'420'} height={'315'} src={this.props.content} allowFullScreen></iframe>
       );
     }
     else if ( this.props.type === 'image') {
       return(
-        <img className={'contentBox'} src={this.props.content} style={this.props.contentStyle}/>
+        <img title={this.props.hoverInfo} alt={this.props.hoverInfo} className={'contentBox'} src={this.props.content} style={this.props.contentStyle}/>
       );
     }
   }

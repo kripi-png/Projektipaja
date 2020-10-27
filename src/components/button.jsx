@@ -14,7 +14,7 @@ export default class Button extends React.Component {
   render() {
     return (
       <div className={this.state.active ? 'Button open': 'Button'} style={this.props.style} onClick={ () => { [...document.querySelectorAll( '.Button.open' )].map( button => { return button.click(); }); this.setState({active: !this.state.active}); }}>
-        <a href="javascript:;" title={this.props.hoverInfo}><img src={this.props.img} alt={'Content Box'}/></a>
+        <a title={this.props.hoverInfo}><img src={this.props.img} alt={'Content Box'}/></a>
         <ContentBox type={this.props.type} content={this.props.content} contentStyle={this.props.contentStyle}/>
       </div>
     );
@@ -44,8 +44,7 @@ class ContentBox extends React.Component {
         );
 
       default:
-        throw ( 'Invalid Button Type - must be "text", "iframe" or "image"' );
-        break;
+        throw new Error( 'Invalid Button Type - must be "text", "iframe" or "image"' );
     }
   }
 }

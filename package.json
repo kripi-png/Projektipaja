@@ -7,7 +7,7 @@
   "contributors": [
     "Projektipaja-ryhmä S71"
   ],
-  "homepage": "https://kripi-png.github.io/Projektipaja/",
+  "homepage": "",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

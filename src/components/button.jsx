@@ -3,7 +3,6 @@ import React from 'react';
 export default class Button extends React.Component {
   constructor( props ) {
     super( props );
-    // this.addActiveClass= this.addActiveClass.bind(this);
     this.state = {
       active: false
     };
@@ -13,11 +12,9 @@ export default class Button extends React.Component {
     this.setState({ active: !currentState });
   }
   render() {
-    // console.log( this.props );
     return (
       <div className={this.state.active ? 'Button open': 'Button'} style={this.props.style} onClick={ () => { [...document.querySelectorAll( '.Button.open' )].map( button => { return button.click(); }); this.setState({active: !this.state.active}); }}>
-        <img src={this.props.img} alt={'Content Box'}/>
-
+        <a href="javascript:;" title={this.props.hoverInfo}><img src={this.props.img} alt={'Content Box'}/></a>
         <ContentBox type={this.props.type} content={this.props.content} contentStyle={this.props.contentStyle}/>
       </div>
     );
@@ -30,20 +27,25 @@ class ContentBox extends React.Component {
     this.state = {}
   }
   render() {
-    if ( this.props.type === 'text' ) {
-      return(
-        <div title={this.props.hoverInfo} className={'contentBox'} style={this.props.contentStyle}>{this.props.content}</div>
-      );
-    }
-    else if ( this.props.type === 'iframe' ) {
-      return(
-        <iframe title={this.props.hoverInfo} className={'contentBox'} style={this.props.contentStyle} width={'420'} height={'315'} src={this.props.content} allowFullScreen></iframe>
-      );
-    }
-    else if ( this.props.type === 'image') {
-      return(
-        <img title={this.props.hoverInfo} alt={this.props.hoverInfo} className={'contentBox'} src={this.props.content} style={this.props.contentStyle}/>
-      );
+    switch ( this.props.type ) {
+      case 'text':
+        return(
+          <div className={'contentBox'} style={this.props.contentStyle}>{this.props.content}</div>
+        );
+
+      case 'iframe':
+        return(
+          <iframe title={this.props.hoverInfo} className={'contentBox'} style={this.props.contentStyle} width={'420'} height={'315'} src={this.props.content} allowFullScreen></iframe>
+        );
+
+      case 'image':
+        return(
+          <img title={this.props.hoverInfo} alt={this.props.hoverInfo} className={'contentBox'} src={this.props.content} style={this.props.contentStyle}/>
+        );
+
+      default:
+        throw ( 'Invalid Button Type - must be "text", "iframe" or "image"' );
+        break;
     }
   }
 }

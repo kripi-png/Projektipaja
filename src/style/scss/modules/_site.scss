@@ -1,11 +1,12 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
 }
-#root,
 
+#root,
 .main { height: 100%; }
 
 .main { position: relative; }
@@ -19,24 +20,28 @@ body {
   width: 50px;
   height: auto;
   position: absolute;
-}
 
-.Button img {
-  width: 100%;
-  height: 100%;
-}
+  &.open {
+    z-index: 1;
 
-.Button img.contentBox {
-  width: auto;
-  height: auto;
+    > .contentBox {
+      display: block;
+    }
+  }
+
+  img {
+   width: 100%;
+   height: 100%;
+
+   &.contentBox {
+     width: auto;
+     height: auto;
+   }
+ }
 }
 
 .contentBox {
   width: 500px;
   display: none;
   color: #fff;
-}
-
-.Button.open > .contentBox {
-  display: block;
 }

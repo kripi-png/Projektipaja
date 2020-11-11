@@ -6,36 +6,60 @@ export default class FrontPage extends React.Component {
     return (
       <div className="main">
         <Button
-          img={'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/768px-Facebook_icon_2013.svg.png'}
-          style={{left: "2%", top: "5%"}}
-          type={'text'}
-          hoverInfo={'Tekstiä'}
-          contentStyle={{ backgroundColor: '#820081', fontSize: "1.2em", padding: '.75em', border: "1px solid #000" }}
-          content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'}
+          img={'https://upload.wikimedia.org/wikipedia/commons/b/b9/Group_font_awesome.svg'}
+          style={{left: "4%", top: "10%", transform: 'translate(-50%, -50%)'}}
+          type={'slides'}
+          hoverInfo={'Ryhmäyttäminen'}
+          contentStyle={{ margin: "0 0" }}
+          content={'https://docs.google.com/presentation/d/e/2PACX-1vT3reFsprMQH9rFI9rROMjQiMLkTtT1V0dTGPNdOY1LeoBZ02RCBIVpn_QFol3Rlw87L7yqfQ3OhS0P/embed?start=false&loop=false&delayms=15000'}
         />
         <Button
-          img={'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1004px-Google_%22G%22_Logo.svg.png'}
-          style={{left: "20%", top: "25%"}}
-          contentStyle={{ width: "auto", height: '300px' }}
+          img={'https://icon-library.com/images/info-icon-svg/info-icon-svg-27.jpg'}
+          style={{left: "48.5vw", top: "27vh", transform: 'translate(-50%, -50%)'}}
+          type={'slides'}
+          hoverInfo={'Infoa IOVT:stä'}
+          contentStyle={{ margin: "0 -200px " }}
+          content={'https://docs.google.com/presentation/d/e/2PACX-1vQBWvGXfHpje0w_bnQinYYtx2z2CfTHZnkNy606IqN2V7N2sJTtBAqyHDVOHaboyu7_3Hn3KspEZTX-/embed?start=false&loop=false&delayms=15000'}
+        />
+        <Button
+          img={'http://simpleicon.com/wp-content/uploads/camera.png'}
+          style={{left: "35%", top: "40%", transform: 'translate(-50%, -50%)'}}
+          contentStyle={{ width: "auto", height: '500px', margin: '-250px 70px' }}
           type={'image'}
-          hoverInfo={'kuva'}
-          content={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'}
+          hoverInfo={'Posteri'}
+          content={'https://i.imgur.com/XNDsEp8.jpg'}
         />
         <Button
-          img={'https://i.imgur.com/RgYSq9J.gif'}
-          style={{left: "66.5%", top: "12.2%", transform: "translate(-50%, -50%)", width: "4em" }}
-          contentStyle={{ margin: "0 0 0 -500px" }}
+          img={'https://i.imgur.com/OAC7N2v.png'}
+          style={{left: "50%", top: "45%", transform: 'translate(-50%, -50%)'}}
+          contentStyle={{ width: "auto", height: '300px' }}
           type={'iframe'}
-          hoverInfo={'youtube-video'}
-          content={'https://www.youtube.com/embed/dQw4w9WgXcQ'}
+          hoverInfo={'Esitysvideo'}
+          content={'https://www.youtube.com/embed/B1YV_1KzVwA'}
         />
         <Button
-          img={'https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg'}
-          style={{left: "90%", top: "25%" }}
-          contentStyle={{ margin: "0 0 0 -500px"}}
+          img={'https://i.imgur.com/OAC7N2v.png'}
+          style={{left: "60%", top: "40%", transform: 'translate(-50%, -50%)'}}
+          contentStyle={{ width: "auto", height: '300px' }}
           type={'iframe'}
-          hoverInfo={'Joku artikkeli'}
-          content={'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'}
+          hoverInfo={'Esitysvideo'}
+          content={'https://www.youtube.com/embed/WlterZVnGDA'}
+        />
+        <Button
+          img={'https://i.imgur.com/BgYdbVL.png'}
+          style={{left: "20%", top: "15%", transform: 'translate(-50%, -50%)'}}
+          type={'slides'}
+          hoverInfo={'Aikatauluttaminen'}
+          contentStyle={{}}
+          content={'https://docs.google.com/presentation/d/e/2PACX-1vTEub7axS1Mg56nJclLZqfXiLEqoQxIEkOpLu7mMQtYZSm3On7VuWS9FzZtmhwe_pnrVOm-j6I1ym4i/embed?start=false&loop=false&delayms=15000'}
+        />
+        <Button
+          img={'https://image.flaticon.com/icons/png/512/1600/1600977.png'}
+          style={{left: "20%", top: "25%", transform: 'translate(-50%, -50%)'}}
+          type={'slides'}
+          hoverInfo={'Tietoteknilliset  taidot'}
+          contentStyle={{}}
+          content={'https://docs.google.com/presentation/d/e/2PACX-1vTcVjRnCRg_DDaV1hcJ4Zt1rjVVbX9_Jp0JFOooHUB7Q50mIHbBu1H_3zGsBK5EngV-_7Qvxk8RaORL/embed?start=false&loop=false&delayms=15000'}
         />
       </div>
     );

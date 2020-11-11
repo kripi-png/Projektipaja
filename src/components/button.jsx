@@ -43,6 +43,11 @@ class ContentBox extends React.Component {
           <img title={this.props.hoverInfo} alt={this.props.hoverInfo} className={'contentBox'} src={this.props.content} style={this.props.contentStyle}/>
         );
 
+      case 'slides':
+        return(
+          <iframe src={this.props.content} title={this.props.hoverInfo}className={'contentBox'} style={this.props.contentStyle} frameBorder="0" width="480" height="299" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        );
+
       default:
         throw new Error( 'Invalid Button Type - must be "text", "iframe" or "image"' );
     }

@@ -61,6 +61,14 @@ export default class FrontPage extends React.Component {
           contentStyle={{}}
           content={'https://docs.google.com/presentation/d/e/2PACX-1vTcVjRnCRg_DDaV1hcJ4Zt1rjVVbX9_Jp0JFOooHUB7Q50mIHbBu1H_3zGsBK5EngV-_7Qvxk8RaORL/embed?start=false&loop=false&delayms=15000'}
         />
+        <Button
+          img={'https://i.imgur.com/FPplNxJ.png'}
+          style={{left: "75%", top: "20%", transform: 'translate(-50%, -50%)'}}
+          type={'slides'}
+          hoverInfo={'Johtajuus'}
+          contentStyle={{margin: "0 -500px"}}
+          content={'https://docs.google.com/presentation/d/e/2PACX-1vScLhrnVZhFUJLPTgXKztmza54HCZEjSP9kqE0UR8z_6n4Yh9aRKOdMXMyQHh5LcVw7o3Yr_g5CfoaP/embed?start=false&loop=false&delayms=15000&slide=id.p'}
+        />
       </div>
     );
   }

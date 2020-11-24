@@ -35,7 +35,7 @@ class ContentBox extends React.Component {
 
       case 'iframe':
         return(
-          <iframe title={this.props.hoverInfo} className={'contentBox'} style={this.props.contentStyle} width={'420'} height={'315'} src={this.props.content} allowFullScreen></iframe>
+          <iframe title={this.props.hoverInfo} className={'contentBox'} style={this.props.contentStyle} width="560" height="315" src={this.props.content} allowFullScreen></iframe>
         );
 
       case 'image':

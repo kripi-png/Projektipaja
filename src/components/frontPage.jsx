@@ -7,10 +7,10 @@ export default class FrontPage extends React.Component {
       <div className="main">
         <Button
           img={'https://upload.wikimedia.org/wikipedia/commons/b/b9/Group_font_awesome.svg'}
-          style={{left: "4%", top: "10%", transform: 'translate(-50%, -50%)'}}
+          style={{left: "15%", top: "55%", transform: 'translate(-50%, -50%)'}}
           type={'slides'}
           hoverInfo={'Ryhmäyttäminen'}
-          contentStyle={{ margin: "0 0" }}
+          contentStyle={{ margin: "-150px 100px" }}
           content={'https://docs.google.com/presentation/d/e/2PACX-1vT3reFsprMQH9rFI9rROMjQiMLkTtT1V0dTGPNdOY1LeoBZ02RCBIVpn_QFol3Rlw87L7yqfQ3OhS0P/embed?start=false&loop=false&delayms=15000'}
         />
         <Button
@@ -32,17 +32,17 @@ export default class FrontPage extends React.Component {
         <Button
           img={'https://i.imgur.com/OAC7N2v.png'}
           style={{left: "50%", top: "45%", transform: 'translate(-50%, -50%)'}}
-          contentStyle={{ width: "auto", height: '300px' }}
+          contentStyle={{margin: "-100px 60px"}}
           type={'iframe'}
           hoverInfo={'Esitysvideo'}
           content={'https://www.youtube.com/embed/B1YV_1KzVwA'}
         />
         <Button
           img={'https://i.imgur.com/OAC7N2v.png'}
-          style={{left: "60%", top: "40%", transform: 'translate(-50%, -50%)'}}
-          contentStyle={{ width: "auto", height: '300px' }}
+          style={{left: "80%", top: "60%", transform: 'translate(-50%, -50%)'}}
+          contentStyle={{margin: "-200px -530px" }}
           type={'iframe'}
-          hoverInfo={'Esitysvideo'}
+          hoverInfo={'video'}
           content={'https://www.youtube.com/embed/WlterZVnGDA'}
         />
         <Button
@@ -63,7 +63,7 @@ export default class FrontPage extends React.Component {
         />
         <Button
           img={'https://i.imgur.com/FPplNxJ.png'}
-          style={{left: "75%", top: "20%", transform: 'translate(-50%, -50%)'}}
+          style={{left: "65%", top: "15%", transform: 'translate(-50%, -50%)'}}
           type={'slides'}
           hoverInfo={'Johtajuus'}
           contentStyle={{margin: "0 -500px"}}

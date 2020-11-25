@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Projektipaja/static/css/main.f4956f43.chunk.css",
-    "main.js": "/Projektipaja/static/js/main.b1e3bd68.chunk.js",
-    "main.js.map": "/Projektipaja/static/js/main.b1e3bd68.chunk.js.map",
+    "main.js": "/Projektipaja/static/js/main.3079dc54.chunk.js",
+    "main.js.map": "/Projektipaja/static/js/main.3079dc54.chunk.js.map",
     "runtime-main.js": "/Projektipaja/static/js/runtime-main.42dda131.js",
     "runtime-main.js.map": "/Projektipaja/static/js/runtime-main.42dda131.js.map",
     "static/js/2.3586eef5.chunk.js": "/Projektipaja/static/js/2.3586eef5.chunk.js",
     "static/js/2.3586eef5.chunk.js.map": "/Projektipaja/static/js/2.3586eef5.chunk.js.map",
     "index.html": "/Projektipaja/index.html",
-    "precache-manifest.86de9bec75f0a3bc4dab88511866bd0e.js": "/Projektipaja/precache-manifest.86de9bec75f0a3bc4dab88511866bd0e.js",
+    "precache-manifest.36117c81b27774044e388d9ee5dcc1df.js": "/Projektipaja/precache-manifest.36117c81b27774044e388d9ee5dcc1df.js",
     "service-worker.js": "/Projektipaja/service-worker.js",
     "static/css/main.f4956f43.chunk.css.map": "/Projektipaja/static/css/main.f4956f43.chunk.css.map",
     "static/js/2.3586eef5.chunk.js.LICENSE.txt": "/Projektipaja/static/js/2.3586eef5.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.42dda131.js",
     "static/js/2.3586eef5.chunk.js",
     "static/css/main.f4956f43.chunk.css",
-    "static/js/main.b1e3bd68.chunk.js"
+    "static/js/main.3079dc54.chunk.js"
   ]
 }

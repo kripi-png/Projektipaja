@@ -7,7 +7,7 @@ export default class FrontPage extends React.Component {
       <div className="main">
         <Button
           img={'https://upload.wikimedia.org/wikipedia/commons/b/b9/Group_font_awesome.svg'}
-          style={{left: "15%", top: "57%", transform: 'translate(-50%, -50%)'}}
+          style={{left: "18%", top: "52%", transform: 'translate(-50%, -50%)'}}
           type={'slides'}
           hoverInfo={'Ryhmäyttäminen'}
           contentStyle={{ margin: "-150px 100px" }}
@@ -35,7 +35,7 @@ export default class FrontPage extends React.Component {
           contentStyle={{margin: "-100px 60px"}}
           type={'iframe'}
           hoverInfo={'Esitysvideo'}
-          content={'https://www.youtube.com/embed/B1YV_1KzVwA'}
+          content={'https://www.youtube.com/embed/t8ce7JS-ylI'}
         />
         <Button
           img={'https://i.imgur.com/OAC7N2v.png'}
@@ -47,7 +47,7 @@ export default class FrontPage extends React.Component {
         />
         <Button
           img={'https://i.imgur.com/BgYdbVL.png'}
-          style={{left: "20%", top: "15%", transform: 'translate(-50%, -50%)'}}
+          style={{left: "15%", top: "15%", transform: 'translate(-50%, -50%)'}}
           type={'slides'}
           hoverInfo={'Aikatauluttaminen'}
           contentStyle={{}}
@@ -55,7 +55,7 @@ export default class FrontPage extends React.Component {
         />
         <Button
           img={'https://image.flaticon.com/icons/png/512/1600/1600977.png'}
-          style={{left: "20%", top: "25%", transform: 'translate(-50%, -50%)'}}
+          style={{left: "25%", top: "30%", transform: 'translate(-50%, -50%)'}}
           type={'slides'}
           hoverInfo={'Tietoteknilliset  taidot'}
           contentStyle={{}}

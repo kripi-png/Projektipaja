@@ -7,7 +7,7 @@ export default class FrontPage extends React.Component {
       <div className="main">
         <Button
           img={'https://upload.wikimedia.org/wikipedia/commons/b/b9/Group_font_awesome.svg'}
-          style={{left: "15%", top: "55%", transform: 'translate(-50%, -50%)'}}
+          style={{left: "15%", top: "57%", transform: 'translate(-50%, -50%)'}}
           type={'slides'}
           hoverInfo={'Ryhmäyttäminen'}
           contentStyle={{ margin: "-150px 100px" }}
@@ -39,10 +39,10 @@ export default class FrontPage extends React.Component {
         />
         <Button
           img={'https://i.imgur.com/OAC7N2v.png'}
-          style={{left: "80%", top: "60%", transform: 'translate(-50%, -50%)'}}
+          style={{left: "80%", top: "62%", transform: 'translate(-50%, -50%)'}}
           contentStyle={{margin: "-200px -530px" }}
           type={'iframe'}
-          hoverInfo={'video'}
+          hoverInfo={'Video'}
           content={'https://www.youtube.com/embed/WlterZVnGDA'}
         />
         <Button
